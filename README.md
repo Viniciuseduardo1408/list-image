@@ -1,4 +1,4 @@
-# Projeto: Galeria de Arte Responsiva
+# Projeto: Galeria de Arte
 
 ## 📄 Descrição do Projeto
 
