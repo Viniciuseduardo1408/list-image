@@ -1,0 +1,46 @@
+html{
+    font-size: 62.5%;
+    font-family: "Public Sans", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.artwork-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.artwork-gallery__container-image{
+    position: relative;
+}
+
+.artwork-gallery__container-image:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.artwork-gallery__info{
+    position: absolute;
+    bottom: 4rem;
+    left: 3rem;
+    color: #FFF;
+}
+
+.artwork-gallery__info h3{
+    font-size: 3rem;
+
+}
+
+.artwork-gallery__info p{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
